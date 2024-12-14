@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YukBelajar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .materi {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn i {
+            font-size: 20px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .btn-rect {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+        }
+        .btn-rect:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YukBelajar</h1>
+    </header>
+    <div class="container">
+        <!-- Materi 1: Fiil Mudhori -->
+        <div class="materi">
+            <h2>Materi 1: Fiil Mudhori</h2>
+            <p>
+                Fiil Mudhari adalah kata kerja dalam bahasa Arab yang digunakan untuk menunjukkan peristiwa yang sedang terjadi atau akan terjadi di masa depan. Sederhananya, fiil mudhari menggambarkan suatu tindakan yang sedang dilakukan atau akan dilakukan.
+            </p>
+            <ul>
+                <li><strong>Contoh Kalimat Fiil Mudhari:</strong></li>
+                <ul>
+                    <li>
+                        أنا أقرأ كتابًا. (Ana aqra kutāban.) - Aku sedang membaca buku.
+                        <button class="btn" onclick="playAudio('audio/contoh1.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        هو يذهب إلى المدرسة. (Huya yadhabu ilal madrasah.) - Dia pergi ke sekolah.
+                        <button class="btn" onclick="playAudio('audio/contoh2.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        نحن نلعب كرة القدم. (Nahnu nal'abu kurata al-qadam.) - Kami bermain sepak bola.
+                        <button class="btn" onclick="playAudio('audio/contoh3.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        سأدرس غدًا. (Sa'adrusu ghadān.) - Aku akan belajar besok.
+                        <button class="btn" onclick="playAudio('audio/contoh4.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        هل ستذهب إلى السوق؟ (Hal satadhabu ilas suuq?) - Apakah kamu akan pergi ke pasar?
+                        <button class="btn" onclick="playAudio('audio/contoh5.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+
+        <!-- Materi 2: Mufrodat - Ruangan -->
+        <div class="materi">
+            <h2>Materi 2: Mufrodat - Ruangan</h2>
+            <p>
+                Mufrodat (kosakata) ini mencakup kata-kata yang berkaitan dengan berbagai jenis ruangan dalam bahasa Arab. Mengetahui kosakata ini sangat berguna untuk memahami deskripsi tempat atau rumah dalam bahasa Arab.
+            </p>
+            <ul>
+                <li><strong>Contoh Kosakata Ruangan:</strong></li>
+                <ul>
+                    <li>
+                        غرفة النوم (Ghurfat al-nawm) - Kamar tidur
+                        <button class="btn" onclick="playAudio('audio/ruangan1.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        غرفة المعيشة (Ghurfat al-ma'isha) - Ruang tamu
+                        <button class="btn" onclick="playAudio('audio/ruangan2.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        المطبخ (Al-matbakh) - Dapur
+                        <button class="btn" onclick="playAudio('audio/ruangan3.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        الحمام (Al-hammam) - Kamar mandi
+                        <button class="btn" onclick="playAudio('audio/ruangan4.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>
+                    <li>
+                        الديوان (Al-Diwan) - Kantor
+                        <button class="btn" onclick="playAudio('audio/ruangan5.mp3')">
+                            <i class="headset-icon">🎧</i>
+                        </button>
+                    </li>                    
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Fitur Quiz -->
+    <div class="container quiz">
+        <h2>Quiz: Tes Pengetahuan Anda</h2>
+        <div id="quiz-container">
+            <!-- Pertanyaan 1 -->
+            <div class="quiz-item">
+                <p>1. Kalimat mana yang menggunakan Fiil Mudhori?</p>
+                <ul class="quiz-options">
+                    <li>
+                        <input type="radio" id="q1-a1" name="q1" value="أقرأ كتابًا">
+                        <label for="q1-a1">أقرأ كتابًا (Aku sedang membaca buku)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q1-a2" name="q1" value="قرأ كتابًا">
+                        <label for="q1-a2">قرأ كتابًا (Membaca buku)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q1-a3" name="q1" value="قرأ كتبًا">
+                        <label for="q1-a3">قرأ كتبًا (Membaca buku-buku)</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pertanyaan 2 -->
+            <div class="quiz-item">
+                <p>2. Apa arti dari kata "غرفة النوم" (Ghurfat al-nawm)?</p>
+                <ul class="quiz-options">
+                    <li>
+                        <input type="radio" id="q2-a1" name="q2" value="Ruang Tamu">
+                        <label for="q2-a1">Ruang Tamu</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q2-a2" name="q2" value="Kamar Tidur">
+                        <label for="q2-a2">Kamar Tidur</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q2-a3" name="q2" value="Kamar Mandi">
+                        <label for="q2-a3">Kamar Mandi</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pertanyaan 3 -->
+            <div class="quiz-item">
+                <p>3. Kalimat mana yang mengandung Fiil Mudhori untuk masa depan?</p>
+                <ul class="quiz-options">
+                    <li>
+                        <input type="radio" id="q3-a1" name="q3" value="سأذهب إلى المدرسة">
+                        <label for="q3-a1">سأذهب إلى المدرسة (Saya akan pergi ke sekolah)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q3-a2" name="q3" value="ذهبت إلى المدرسة">
+                        <label for="q3-a2">ذهبت إلى المدرسة (Saya pergi ke sekolah)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q3-a3" name="q3" value="ذهب إلى المدرسة">
+                        <label for="q3-a3">ذهب إلى المدرسة (Dia pergi ke sekolah)</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pertanyaan 4 -->
+            <div class="quiz-item">
+                <p>4. Apa arti dari kata "المطبخ" (Al-matbakh)?</p>
+                <ul class="quiz-options">
+                    <li>
+                        <input type="radio" id="q4-a1" name="q4" value="Ruang Tamu">
+                        <label for="q4-a1">Ruang Tamu</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q4-a2" name="q4" value="Dapur">
+                        <label for="q4-a2">Dapur</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q4-a3" name="q4" value="Kamar Mandi">
+                        <label for="q4-a3">Kamar Mandi</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pertanyaan 5 -->
+            <div class="quiz-item">
+                <p>5. Kalimat mana yang menggambarkan Fiil Mudhori dalam bentuk jamak?</p>
+                <ul class="quiz-options">
+                    <li>
+                        <input type="radio" id="q5-a1" name="q5" value="نلعب كرة القدم">
+                        <label for="q5-a1">نلعب كرة القدم (Kami bermain sepak bola)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q5-a2" name="q5" value="لعبنا كرة القدم">
+                        <label for="q5-a2">لعبنا كرة القدم (Kami bermain sepak bola)</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="q5-a3" name="q5" value="لعبوا كرة القدم">
+                        <label for="q5-a3">لعبوا كرة القدم (Mereka bermain sepak bola)</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- Tombol Periksa Jawaban -->
+            <button class="btn-rect" onclick="checkQuiz()">Periksa Jawaban</button>
+        </div>
+        <p id="quiz-feedback" class="feedback"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 YukBelajar</p>
+    </footer>
+
+    <script>
+        function playAudio(audioSrc) {
+            const audio = new Audio(audioSrc);
+            audio.play().catch(error => {
+                console.error('Gagal memutar audio:', error);
+                alert('Audio tidak dapat diputar. Pastikan file audio tersedia dan formatnya didukung.');
+            });
+        }
+
+        function checkQuiz() {
+            const answers = {
+                q1: "أقرأ كتابًا",
+                q2: "Kamar Tidur",
+                q3: "سأذهب إلى المدرسة",
+                q4: "Dapur",
+                q5: "نلعب كرة القدم"
+            };
+
+            let correctCount = 0;
+            let totalQuestions = Object.keys(answers).length;
+
+            for (let questionId in answers) {
+                const selectedOption = document.querySelector(`input[name="${questionId}"]:checked`);
+                if (selectedOption && selectedOption.value === answers[questionId]) {
+                    correctCount++;
+                }
+            }
+
+            const feedback = document.getElementById('quiz-feedback');
+            if (correctCount === totalQuestions) {
+                feedback.textContent = "Selamat! Semua jawaban Anda benar! 🎉";
+                feedback.style.color = "green";
+            } else {
+                feedback.textContent = `Anda menjawab ${correctCount} dari ${totalQuestions} pertanyaan dengan benar. Coba lagi!`;
+                feedback.style.color = "orange";
+            }
+        }
+    </script>
+</body>
+</html>
